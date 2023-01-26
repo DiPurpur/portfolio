@@ -1,0 +1,141 @@
+body {
+    background-color: #ffffff;
+    color: #070707;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "Gilroy-Medium";
+}
+
+h1 {
+    margin: 0;
+}
+h4 {
+    font-size: smaller;
+}
+
+.conteiner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    padding-top: 30px;
+}
+#menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    border-bottom: 1.5px solid #828282;
+    padding-bottom: 35px;
+}
+
+#menu a {
+    /* display: inline-block; */
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    color: #828282;
+    white-space: nowrap;
+}
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Gilroy-Bold";
+    line-height: 22px;
+    color: #828282;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.info {
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+
+.profi {
+    padding-top: 30px;
+    flex: 1;
+}
+
+.profi_s {
+    position: relative;
+    left: 22%;
+    top: -13px;
+}
+
+.lang {
+    transform: rotate(-90deg);
+    text-align: right;
+    position: absolute;
+    left: -30px;
+    top: 40px;
+    font-size: small;
+}
+.lang_vrap {
+    position: relative;
+}
+
+.ava {
+    width: 750px;
+    border-radius: 1%;
+    /* box-shadow: 4px 4px 16px rgba(0, 0, 0, 1); */
+    padding-top: 50px;
+    margin-bottom: 80px;
+}
+
+.about_me {
+    padding-top: 30px;
+    text-align: center;
+    /* margin-bottom: 100%; */
+    background-color: #f6f6f6;
+    padding-bottom: 50px;
+}
+.about_me_text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
+    padding-top: 60px;
+    margin-bottom: 50px;
+    font-size: smaller;
+}
+
+.li {
+    list-style-type: none;
+}
+
+.skills {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.icons {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    margin-bottom: 50px;
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio {
+    padding-top: 30px;
+    text-align: center;
+    /* margin-bottom: 100%; */
+    background-color: #f6f6f6;
+    padding-bottom: 50px;
+}
+.portphoto {
+    width: 750px;
+    border-radius: 1%;
+    /* box-shadow: 4px 4px 16px rgba(0, 0, 0, 1); */
+    padding-top: 30px;
+    /* margin-bottom: 10px; */
+}
+
+p {
+    text-decoration: underline;
+}
