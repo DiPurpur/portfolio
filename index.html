@@ -10,19 +10,19 @@
     <body>
         <div class="conteiner">
             <div id="menu">
-                <a href="#">Главная</a>
+                <a href="#Главная">Главная</a>
 
-                <a href="#">Обо мне</a>
+                <a href="#Обо мне">Обо мне</a>
 
-                <a href="#">Мои скилы</a>
+                <a href="#Скилы">Мои скилы</a>
 
-                <a href="#" id="nowopen">Портфолио</a>
+                <a href="#Портфолио" id="nowopen">Портфолио</a>
 
-                <a href="#">Контакты</a>
+                <a href="#Контакты">Контакты</a>
             </div>
             <div class="info">
                 <div class="name">
-                    <h1>Диана <br />Пурцеладзе</h1>
+                    <h1 id="Главная">Диана <br />Пурцеладзе</h1>
                 </div>
                 <div class="profi">
                     <div class="profi_s">
@@ -43,23 +43,17 @@
         </div>
         <div class="about_me">
             <div class="about_me_text">
-                <h1>Обо мне</h1>
+                <h1 id="Обо мне">Обо мне</h1>
                 <h4>
                     <ul class="li">
                         <li>
-                            Привет, я Диана - Project-менеджер d IT с 6-летним
-                            стажем работы и начинающий frontend-разработчик.
+                            Привет, я Диана - Project-менеджер с 6-летним стажем
+                            и начинающий frontend-разработчик.
                         </li>
                         <br />
                         <li>
                             Успешно закрыла более 80 It-проектов в качестве
                             project-менеджера.
-                        </li>
-                        <br />
-                        <li>
-                            Самостоятельно обучаюсь программированию, хочу
-                            своими руками создавать интересные проекты и
-                            развиваться в сфере программирования.
                         </li>
                         <br />
                         <li>
@@ -71,43 +65,106 @@
             </div>
         </div>
         <div class="skills">
-            <h1>Мои скилы</h1>
+            <h1 id="Скилы">Мои скилы</h1>
             <h4>Я работаю в таких программах как</h4>
-            <p class="icons">
-                <img
-                    src="./photos/MPr.svg"
-                    alt="Фотография 1"
-                    width="80"
-                    height="80"
-                />
-                <img
-                    src="./photos/jira.svg"
-                    alt="Фотография 2"
-                    width="80"
-                    height="80"
-                />
-                <img
-                    src="./photos/trello.svg"
-                    alt="Фотография 3"
-                    width="80"
-                    height="80"
-                />
-                <img
-                    src="./photos/VScode.svg"
-                    alt="Фотография 4"
-                    width="80"
-                    height="80"
-                />
-            </p>
+            <div class="icons">
+                <div>
+                    <img
+                        src="./photos/MPr.svg"
+                        alt="Фотография 1"
+                        width="80"
+                        height="80"
+                    /><br />
+                    Microsoft Project
+                </div>
+                <div>
+                    <img
+                        src="./photos/jira.svg"
+                        alt="Фотография 2"
+                        width="80"
+                        height="80"
+                    />
+                    <br />Jira
+                </div>
+                <div>
+                    <img
+                        src="./photos/trello.svg"
+                        alt="Фотография 3"
+                        width="80"
+                        height="80"
+                    /><br />Trello
+                </div>
+                <div>
+                    <img
+                        src="./photos/VScode.svg"
+                        alt="Фотография 4"
+                        width="80"
+                        height="80"
+                    /><br />Visual Studio Code
+                </div>
+            </div>
+            <!-- <p class="icons_text">
+                Microsoft Project <br />
+                Jira <br />Trello <br />Visual Studio Code
+            </p> -->
         </div>
         <div class="portfolio">
-            <h1>Портфолио</h1>
+            <h1 id="Портфолио">Портфолио</h1>
             <img src="./photos/CV1.png" class="portphoto" />
             <p>Страница - резюме</p>
             <img src="./photos/CV2.png" class="portphoto" />
             <p>Описание хобби списком и блок со ссылками в соц.сети</p>
             <img src="./photos/CV3.png" class="portphoto" />
-            <p>Блок контакты</p>
+            <p>Форма обратной связи</p>
+        </div>
+        <div class="contacts">
+            <h1 id="Контакты">Контакты</h1>
+            <h4>Хотите узнать больше или просто написать?</h4>
+            <br />
+            <input class="button" type="submit" placeholder="Написать" />
+            <div class="sm">
+                <a href="https://www.instagram.com/di.pur.pur/" target="_blank">
+                    <img
+                        src="./photos/ins.png"
+                        alt="Фотография 4"
+                        width="27"
+                        height="27"
+                /></a>
+
+                <a href="https://t.me/Dipurpur=" target="_blank">
+                    <img
+                        src="./photos/tele.png"
+                        alt="Фотография 5"
+                        width="27"
+                        height="27"
+                /></a>
+
+                <a href="https://vk.com/didipur" target="_blank">
+                    <img
+                        src="./photos/vk.png"
+                        alt="Фотография 6"
+                        width="27"
+                        height="27"
+                /></a>
+
+                <a
+                    href="https://www.facebook.com/profile.php?id=100001900623576="
+                    target="_blank"
+                >
+                    <img
+                        src="./photos/fb.png"
+                        alt="Фотография 7"
+                        width="27"
+                        height="27"
+                /></a>
+            </div>
+            <div>
+                <br />
+                <h5font style="color: #828282"
+                    >Напиши мне в <br />
+                    Instagram, Telegram, Vk или Fb
+                </h5font>
+            </div>
         </div>
     </body>
 </html>

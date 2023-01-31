@@ -3,7 +3,7 @@ body {
     color: #070707;
     font-size: 18px;
     font-weight: normal;
-    font-family: "Gilroy-Medium";
+    font-family: "Times New Roman", Times, serif;
 }
 
 h1 {
@@ -26,6 +26,7 @@ h4 {
     gap: 80px;
     border-bottom: 1.5px solid #828282;
     padding-bottom: 35px;
+    scroll-behavior: smooth;
 }
 
 #menu a {
@@ -63,6 +64,7 @@ a:hover {
     position: relative;
     left: 22%;
     top: -13px;
+    font-size: smaller;
 }
 
 .lang {
@@ -97,7 +99,7 @@ a:hover {
     margin-right: auto;
     width: 480px;
     padding-top: 60px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     font-size: smaller;
 }
 
@@ -116,11 +118,21 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     padding-top: 60px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     width: 650px;
     display: flex;
     justify-content: space-between;
+    font-size: smaller;
 }
+/* .icons_text {
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: -15px;
+    margin-bottom: 50px;
+    width: 650px;
+    display: flex;
+} */
 .portfolio {
     padding-top: 30px;
     text-align: center;
@@ -138,4 +150,43 @@ a:hover {
 
 p {
     text-decoration: underline;
+}
+.contacts {
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
+    padding-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: smaller;
+    text-decoration: none;
+}
+
+.button {
+    font-family: "Gilroy-Medium";
+    background: #111;
+    padding: 10px 40px;
+    color: #fff;
+    border-radius: 35px;
+    cursor: pointer;
+}
+.button:hover {
+    opacity: 0.9;
+}
+.sm {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center
+    color: #828282;; */
+}
+.sm:hover {
+    opacity: 0.9;
+}
+html {
+    scroll-behavior: smooth;
 }
